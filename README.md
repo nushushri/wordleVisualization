@@ -1,5 +1,5 @@
 # wordleVisualization
-My friend and I text our Wordle times to each other every day since January 2022. I decided to collect this data and visualize it. 
+My friend and I have texted our Wordle times to each other every day since January 2022. I decided to collect this data and visualize it. 
 
 I first downloaded our Facebook Messenger conversations as a JSON object, and used regex to extract our times (since each message has the format "Wordle [Puzzle#] [GuessNumber]/6"). After that, I used SQLite3 to save our data into a database table. I created a csv file from the data, and then copied this csv file into the online editor for p5.js (the index.html and style.css files were provided through the p5.js editor). In the editor, I created the code to draw an ellipse that varies in color and width/height. 
 
